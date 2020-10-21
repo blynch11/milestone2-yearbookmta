@@ -7,7 +7,19 @@
 /*--------------------------------------------Students section*/
 
 
-.student-section{
 
-    margin: 50px;
+#student-section{
+    background-color: teal;
+    padding: 50px;
 }
+
+.student-heading{
+    text-align: center;
+    font-size: 45px;
+}
+
+.student-heading-info{
+    text-align: center;
+    font-size: 30px;
+}
+
