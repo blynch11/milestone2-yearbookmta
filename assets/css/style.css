@@ -43,3 +43,11 @@
 }
 
 div #map {min-height: 360px;}
+
+
+/*--------------------------------------------Student-locations*/
+
+.student-locations{
+    margin: 50px auto;
+    text-align: center;
+}
