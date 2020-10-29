@@ -1,10 +1,17 @@
-/*--------------------------------------------Navigation*/
+/*----------------------Navigation--------------------*/
+
+#crest{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.nav-link{
+    font-family: 'Cinzel', serif;
+}
 
 
 
-
-
-/*--------------------------------------------Students section*/
+/*-------------Students-section--------------*/
 
 
 
@@ -32,8 +39,17 @@
     padding: 20px;
 }
 
+/*-------------Students-button--------------*/
 
-/*--------------------------------------------Map*/
+
+.show-more{
+    background-color: lightcoral;
+    border: none;
+
+}
+
+
+/*---------------------Map-----------------------*/
 
 #map{
     height: 500px;
@@ -45,9 +61,10 @@
 div #map {min-height: 360px;}
 
 
-/*--------------------------------------------Student-locations*/
+/*-------------------Student-locations-------------------------*/
 
 .student-locations{
     margin: 50px auto;
     text-align: center;
+    font-family: 'Cinzel', serif;
 }
