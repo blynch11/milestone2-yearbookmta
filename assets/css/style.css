@@ -30,6 +30,14 @@
     font-size: 30px;
 }
 
+.student-name{
+    color: white;
+    margin-top: 5px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
 .card{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
@@ -46,6 +54,10 @@
     background-color: lightcoral;
     border: none;
 
+}
+
+.btn{
+    margin-top: 5px;
 }
 
 
