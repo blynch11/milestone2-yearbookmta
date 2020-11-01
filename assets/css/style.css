@@ -31,7 +31,7 @@
 }
 
 .student-name{
-    color: white;
+    color: black;
     margin-top: 5px;
     font-family: 'Cinzel', serif;
     letter-spacing: 1.5px;
@@ -46,6 +46,8 @@
 .student-card{
     padding: 20px;
 }
+
+
 
 /*-------------Students-button--------------*/
 
