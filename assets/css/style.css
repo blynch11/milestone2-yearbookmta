@@ -30,9 +30,59 @@
     font-size: 30px;
 }
 
+.card-image-top{
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.student-box{
+    background-color: whitesmoke;
+    border-radius: 8px;
+}
+
+.student-name{
+    padding-left: 2px;
+    padding-right: 2px;
+    margin: 4px auto;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1.5px;
+    font-size: 20px; 
+}
+
+.student-info{
+    padding: 4px;
+}
+
+
+.quote{
+    text-align: center;
+    height: 30px;
+    overflow: hidden;
+}
+
+.student-link{
+    text-align: center;
+    
+}
+
+.read-more{
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1.5px;
+}
+
+.box.showContent p{
+    height: auto;
+}
+
+.box.showContent a{
+    height: auto;
+}
+
+
+/*---
 .student-name{
     color: black;
-    margin-top: 5px;
+    margin-top: 2px;
     font-family: 'Cinzel', serif;
     letter-spacing: 1.5px;
     font-size: 20px;
@@ -42,12 +92,23 @@
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
 }
-
-.student-card{
-    padding: 20px;
+.card-body{
+    margin: -15px;
 }
 
+.student-card{
+    padding: 10px;
+}
 
+.student-card-background{
+    background-color: teal;
+}
+
+.bio-btn{
+    margin: 2px;
+}
+
+--/*
 
 /*-------------Students-button--------------*/
 
