@@ -63,7 +63,7 @@ var templateParams ={
 
 
 
-<div class="container-fluid">
+<div class="container-fluid student-profile-section">
 
 
                     <div class="row student-row">
@@ -141,9 +141,14 @@ var templateParams ={
  
 </section>
 
+<div class="student-countries">
+
 <h1 class="student-locations">Where our students come from! </h1>
 
-<p></p>
+<p>Mount Anville is a diverse school community with students & families from all over the world! 
+Our outgoing class of 2020/21 hailed from four different continents and ten countries!</p>
+
+</div>
 
 <div id="map"></div>
 
@@ -164,10 +169,12 @@ var templateParams ={
 
      <section class="container-fluid">
         <div class="row bg-color-contact">
-            <div>
+            
+                <div class="col-sm-12 col-md-4 col-lg-6">
                 <h2 class="contact-heading uppercase text-center">Is your school interested in a virtual yearbook?</h3>
                 
-            </div>
+                </div>
+            <div class="col-sm-12 col-md-4 col-lg-6">
             <div class="center-form">
             <form onsubmit="return sendMail(this);" method="POST">
                 <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
@@ -176,6 +183,7 @@ var templateParams ={
                 <button type="submit" class="btn btn-secondary center-block">Request more information on virtual yearbooks</button>
                 </form>
             </div>
+            </div>
         </div>
     </section>
 
@@ -183,7 +191,7 @@ var templateParams ={
      <script>
         function initMap() {
             var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 3,
+                zoom: 2,
                 center: {
                     lat: 46.619261,
                     lng: -33.134766
@@ -216,6 +224,18 @@ var templateParams ={
             }, {
                 lat: 22.350627,
                 lng: 114.1849161
+            }, {
+                lat: -33.865143,
+                lng: 151.209900
+            }, {
+                lat: 19.076090,
+                lng: 72.877426
+            }, {
+                lat: -33.918861,
+                lng: 18.423300
+            }, {
+                lat: 55.751244,
+                lng: 37.618423
             },
             ];
 
