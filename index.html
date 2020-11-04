@@ -179,20 +179,65 @@ var templateParams ={
         </div>
     </section>
 
-    <script>
-    function initMap(){
-        var map = new google.maps.Map(document.getElementById("map"),{
-            zoom: 3,
-            center: {
-                lat: 46.619261,
-                lng: -33.134766
+    
+     <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById("map"), {
+                zoom: 3,
+                center: {
+                    lat: 46.619261,
+                    lng: -33.134766
                 }
             });
-    
-    }
 
+            var labels = "ABCDEFGHIJKLMONPQRSTUVWXYZ";
+
+            var locations = [{
+                lat: 53.3497645,
+                lng: -6.2602732
+            }, {
+                lat: 51.898627,
+                lng: -8.4705942
+            }, {
+                lat: 51.5073219,
+                lng: -0.1276474
+            }, {
+                lat: 48.8566969,
+                lng: 2.3514616
+            }, {
+                lat: 52.3727598,
+                lng: 4.8936041
+            }, {
+                lat: 52.5170365,
+                lng: 13.3888599
+            }, {
+                lat: 40.7127281,
+                lng: -74.0060152
+            }, {
+                lat: 22.350627,
+                lng: 114.1849161
+            },
+            ];
+
+            var markers = locations.map(function(location, i) {
+                return new google.maps.Marker({
+                    position: location,
+                    label: labels[i % labels.length]
+                });
+            });
+
+            var markerCluster = new MarkerClusterer(map, markers, {
+                imagePath: 'https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m'
+            });
+        }
     </script>
 
+
+
+
+    
+
+    
     <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwW3qsyMHVK5J5d8ZJ4NWGMBejloYbDKo&callback=initMap"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
