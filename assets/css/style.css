@@ -51,14 +51,11 @@
 
 .student-info{
     padding: 4px;
+   
 }
 
 
-.quote{
-    text-align: center;
-    height: 30px;
-    overflow: hidden;
-}
+
 
 .student-link{
     text-align: center;
@@ -70,19 +67,69 @@
     letter-spacing: 1.5px;
 }
 
-.box.showContent p{
-    height: auto;
-}
-
-.box.showContent a{
-    height: auto;
-}
 
 .student-profile-section{
     margin-bottom: 0px;
 }
 
 
+/*-------------Hidden Quotes--------------*/
+
+#quote{
+    text-align: center;
+    height: 30px;
+    
+}
+
+#quote-1{
+    text-align: center;
+    height: 30px;
+    
+}
+
+#quote-2{
+    text-align: center;
+    height: 30px;
+    
+}
+
+#quote-3{
+    text-align: center;
+    height: 30px;
+    
+}
+
+#quote-4{
+    text-align: center;
+    height: 30px;
+    
+}
+
+#quote-5{
+    text-align: center;
+    height: 30px;
+    
+}
+
+#quote-6{
+    text-align: center;
+    height: 30px;
+    
+}
+
+#quote-7{
+    text-align: center;
+    height: 30px;
+    
+}
+
+.showContent p{
+    height: auto;
+}
+
+.showContent a{
+    height: auto;
+}
 
 /*-------------Students-button--------------*/
 
