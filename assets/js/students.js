@@ -12,14 +12,15 @@
      
     });
 
+
+    //
+
    var button = document.getElementsByClassName("read-more");
    var content = document.getElementsByClassName("show-content");
+//
 
-   button.onclick = function(){
-       
 
-   }
-
+  
    
 
 
