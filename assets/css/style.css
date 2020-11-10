@@ -52,26 +52,20 @@
 
 .student-info{
     padding: 4px;
-   
 }
-
-
-.student-link{
-    text-align: center;
-    
-}
-
-.read-more{
-    font-family: 'Cinzel', serif;
-    letter-spacing: 1.5px;
-}
-
 
 .student-profile-section{
     margin-bottom: 0px;
 }
 
+p{
+    text-align: center;
+    font-style: italic;
+}
 
+p a{
+    font-style: normal;
+}
 
 
 /*-------------Hidden Quotes--------------*/
@@ -85,65 +79,6 @@
     color: teal;
 }
 
-/*
-
-#quote{
-    text-align: center;
-    height: 30px;
-    
-}
-
-#quote-1{
-    text-align: center;
-    height: 30px;
-    
-}
-
-#quote-2{
-    text-align: center;
-    height: 30px;
-    
-}
-
-#quote-3{
-    text-align: center;
-    height: 30px;
-    
-}
-
-#quote-4{
-    text-align: center;
-    height: 30px;
-    
-}
-
-#quote-5{
-    text-align: center;
-    height: 30px;
-    
-}
-
-#quote-6{
-    text-align: center;
-    height: 30px;
-    
-}
-
-#quote-7{
-    text-align: center;
-    height: 30px;
-    
-}
-
-.showContent p{
-    height: auto;
-}
-
-.showContent a{
-    height: auto;
-}
-
-/*
 
 /*-------------Students-button--------------*/
 
@@ -156,6 +91,8 @@
 
 .btn{
     margin-top: 5px;
+    font-family: 'Cinzel', serif;
+    letter-spacing: 1.5px;
 }
 
 
@@ -172,7 +109,7 @@
 #map{
     height: 700px;
     width: 80%;
-    margin: 50px auto;
+    margin: 100px auto;
 
 }
 
