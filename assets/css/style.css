@@ -28,6 +28,7 @@
 .student-heading-info{
     text-align: center;
     font-size: 30px;
+    margin: 30px auto;
 }
 
 .card-image-top{
@@ -55,8 +56,6 @@
 }
 
 
-
-
 .student-link{
     text-align: center;
     
@@ -73,7 +72,20 @@
 }
 
 
+
+
 /*-------------Hidden Quotes--------------*/
+
+
+
+.show-content{
+    height: 100px;
+    margin: 10px auto;
+    display: block;
+    color: teal;
+}
+
+/*
 
 #quote{
     text-align: center;
@@ -130,6 +142,8 @@
 .showContent a{
     height: auto;
 }
+
+/*
 
 /*-------------Students-button--------------*/
 
