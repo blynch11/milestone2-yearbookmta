@@ -1,9 +1,11 @@
 
     $(document).ready(function(){
-        $("p").css("display", "none");
+        $("i").css("display", "none");
         
      
     });
+
+    
 
 
 // button click events   

@@ -1,3 +1,9 @@
+/*----------------------Basics-----------------------*/
+
+h1{
+    font-family: 'Cinzel', serif;
+}
+
 /*----------------------Navigation--------------------*/
 
 #crest{
@@ -94,6 +100,33 @@ p a{
     font-family: 'Cinzel', serif;
     letter-spacing: 1.5px;
 }
+
+/*-------------School-story--------------*/
+
+.story-header{
+    text-align: center;
+}
+
+
+
+#school-story{
+    display: visible;
+    color: teal;
+    font-family: 
+}
+
+.school-story-conatiner{
+    margin: 25px auto;
+}
+
+.mount-anville-img{
+     border-radius: 75px;
+     box-shadow: 2px black;
+}
+
+
+
+
 
 
 /*---------------------Map-----------------------*/
