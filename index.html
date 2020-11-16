@@ -4,9 +4,11 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Mount Anville Class of 2020</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
       <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/bebasneueregular" type="text/css"/>
       <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
@@ -14,6 +16,8 @@
       <script type="text/javascript"
          src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
       <script type="text/javascript">
+         
+         
          var templateParams ={
              name: 'Brendan'
              notes: 'Check this out'
@@ -34,13 +38,15 @@
          </button>
          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-               <a class="nav-item nav-link" href="#">Class of 2020 <span class="sr-only">(current)</span></a>
-               <a class="nav-item nav-link" href="#map">Maps</a>
+                
+               <a class="nav-item nav-link" href="#map">Maps<span class="sr-only">(current)</span></a>
                <a class="nav-item nav-link" href="#contact">Contact</a>
+               <a class="nav-item nav-link" href="#highlights">highlights</a>
                
             </div>
          </div>
       </nav>
+      
       <section id="student-section">
          <div class="container">
          <div class="yearbook-students">
@@ -232,18 +238,17 @@
 
             <h1 class="story-header">Our School Story</h1>
             
-            <p id="school-story">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-        Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-        when an unknown printer took a galley of type and scrambled it to make a type 
-        specimen book. It has survived not only five centuries, but also the leap into 
-        electronic typesetting, remaining essentially unchanged. It was popularised in the 
-        1960s with the release of Letraset sheets containing Lorem Ipsum passages, and
-        more recently with desktop publishing software like Aldus PageMaker including versions 
-        of Lorem Ipsum.</p>
+            <p id="school-story">Our school was founded by the society of the Sacred Heart 
+            and its origin dates from 1865. Mount Anville Junior School is a 
+            thriving catholic school with over 450 students.Sacred Heart education seeks to develop the 
+            whole person as a responsible member of society, confident of personal worth, actively living out 
+            Christ’s call to know, and share His Love. MAMJS, a Sacred Heart school aims to provide the 
+            environment for development in every sphere, spiritual, physical, emotional, social, intellectual,
+             artistic and moral.</p>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-6 pb-2">
         
-        <img src="assets/images/mountanville.jpg" width="100%" height="100%" class="mount-anville-img">
+        <img src="assets/images/flower.jpg" width="100%" height="100%" class="mount-anville-img">
         
         </div>
         
@@ -262,7 +267,69 @@
       </div>
       <div id="map"></div>
       <script></script>
-      <section class="container-fluid">
+
+
+    
+
+    <div class="container-fluid image-gallery">
+
+    <h1 id="highlights">
+    Relive some of this years best bits!
+    </h1>
+    
+
+        <div id="slider-outer" class="col-sm-12 col-md-6">
+            
+            <div class="row">
+                <div class="col"><img src="assets/images/left-arrow.png" width="150px" height="150px" alt="arrow" class="previous">
+                </div>
+                <div class="col"><img src="assets/images/right-arrow.png" width="150px" height="150px" alt="arrow" class="next">
+                </div>
+            </div>
+
+
+            <div class="slides-inner col-sm-12 col-md-6">
+
+                        <img src="assets/images/balloons.jpg" width="850px" height="550px" alt="balloons" class="active">
+                
+                        <img src="assets/images/cheers.jpg" width="850px" height="550px" alt="cheers">
+                
+                        <img src="assets/images/concert.jpg" width="850px" height="550px" alt="concert">
+                
+                        <img src="assets/images/halloween.jpg" width="850px" height="550px" alt="halloween">
+                
+                        <img src="assets/images/sport.jpg" width="850px" height="550px" alt="sport">
+               
+                
+
+            
+              
+            </div>
+            
+
+        </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+
+
+
+
+
+
+
+
+
+      <section class="container-fluid contact-section">
          <div class="row bg-color-contact" id="contact">
             <div class="col-sm-12 col-md-4 col-lg-6">
                <h2 class="contact-heading uppercase text-center">
@@ -273,8 +340,8 @@
                   <form onsubmit="return sendMail(this);" method="POST">
                      <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                      <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                     <textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Type your enquiry here" required></textarea>
-                     <button type="submit" class="btn btn-secondary center-block">Request more information on virtual yearbooks</button>
+                     <textarea rows="5" name="projectsummary" class="form-control" id="enquiry" placeholder="Type your enquiry here" required></textarea>
+                     <button type="submit" class="btn btn-secondary center-block" id="request-btn">Request more info</button>
                   </form>
                </div>
             </div>
@@ -364,6 +431,7 @@
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="assets/js/students.js"></script>
+      <script src="assets/js/gallery.js"></script>
       <footer>
       </footer>
       <script src="assets/js/sendemail.js"></script>
