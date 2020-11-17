@@ -8,13 +8,15 @@ an enquiry form for other schools that may follow suit in the future. Due to the
 User Experience (UX)
 User stories
 First Time Visitor Goals
-As a First Time Visitor and past pupil/relative, I want to easily navigate the site, find & read about my daughter and her fellow graduates.
-I want to be able to expand and collapse each student card to read their quotes
-I want to be able to see pictures of my daughter and her fellow graduates
-I want to see highlights from the school year
-I want to be able to view the websites that the students made in their final year in Mount Anville
-If interested in registering for a virtual yearbook for my school, I want to easily contact the site owner for more details
+1. As a First Time Visitor and past pupil/relative, I want to easily navigate the site, find & read about my daughter and her fellow graduates.
+2. I want to be able to expand and collapse each student card to read their quotes
+3. I want to be able to see pictures of my daughter and her fellow graduates
+4. I want to see highlights from the school year
+5. I want to be able to view the websites that the students made in their final year in Mount Anville
+6. If interested in registering for a virtual yearbook for my school, I want to easily contact the site owner for more details
+
 As a Returning Visitor, I want to be understand the layout of the site easily explain its Features to friends/parents/grandparents
+
 Frequent User Goals
 As a Frequent User, I want to easily check on my friends quotes, pictures & site
 
@@ -24,11 +26,10 @@ The main colours I used for my white and Teal. These colours are not only compli
 The two types of font used are Cinzel & Yanone Kaffeesatz (YK). Cinzel is used for headers and navigation while YK is used for the paragraph text. I really like Cinzel for my headings as its elegance relfects that of our school. The script feels quite old and traditional
 while also elegant and dramatic. Mount Anville is a school steeped in tradition and history, which this font suits perfectly. YK is a little less formal and an easy read for any visitors of the site. I think it compliments the Cinzel quite well. 
 Imagery is an important part of my site. I anticipate students using this site in years to come and being able to look back on themselves as graduates will be both nostalgic and humerous. I also included images of our school crest and flower, both important
-parts of our school culture. 
+parts of our school culture & a 'highlights' gallery that students can slide through to relive some of their favourite memories in school. 
 
 
 
-Imagery is a very important part of my site. I am trying to sell the customers scenic tours around Dublin, so I chose to have a big, bold hero image of Dublin City to greet new & returning customers to the site. I added a gallery and some overhead shots of the routes to show the customer what they can expect to experience on a DCC tour.
 Wireframes
 Home Page Wireframe - [View] (https://github.com/blynch11/Dublincitycycles/blob/master/documentation/desktopwireframe.png)
 
@@ -39,29 +40,33 @@ Responsive on all device sizes
 Technologies Used
 HyperText Markup Language (HTML): The standard language for building web pages. https://www.w3schools.com/html/default.asp
 Cascading Style Sheets (CSS): The language that describes the style of an element in HTML, it enables efficient scaling of certain predefined styles. https://www.w3schools.com/css/default.asp
+Javascript (JS) : The programming language of the web that can make changes to both HTML & CSS and much more https://www.w3schools.com/whatis/whatis_js.asp
 Bootstrap: A front end framework that helps you rapidly create attractive and responsive webpages with it's very helpful library of templates. https://getbootstrap.com/
+jQuery: jQuery is a lightweight, "write less, do more", JavaScript library. https://www.w3schools.com/jquery/jquery_intro.asp
 Gitpod: An online Integrated Development Environment (IDE) used for creating and storing your code. https://www.gitpod.io/
 Git: Version control system for tracking changes to your coding projects. https://git-scm.com/
 Github: A software development repository where people can host and collaborate on coding projects. https://github.com/
 Chrome DevTools: For editing pages and diagnosing issues via Google Chrome browse. https://developers.google.com/web/tools/chrome-devtools
-Fontawesome for their lovely icons. https://fontawesome.com/
 Google fonts for their fonts. https://fonts.google.com/
 Royalty free images: https://pixabay.com/ https://images.google.com/ (labeled for reuse)
 Google Images (labeled for reuse) for images
 W3C Markup Validation for error checking my code. https://validator.w3.org/#validate_by_uri
+Google Maps API: The Maps JavaScript API lets you customize maps with your own content and imagery for display on web pages and mobile devices.  https://developers.google.com/maps/documentation/javascript/overview
+EmailJS: Sends emails directly from JavaScript https://www.emailjs.com/
 Google and Youtube
 Languages Used
 HTML5
 CSS3
+Javascript
+
 Frameworks, Libraries & Programs Used
 Bootstrap 4.4.1:
 Bootstrap was used to assist with the responsiveness and styling of the website.
 Google Fonts:
-Google fonts were used to import the 'Bebasneueregular' and 'Barlow' font into the style.css file which is used on all pages throughout the project.
-Font Awesome:
-Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+Google fonts were used to import the Cinzel & Yanone Kaffeesatz font into the style.css file which is used on all pages throughout the project.
 jQuery:
 jQuery came with Bootstrap to make the navbar responsive.
+Jquery was used to add functionality to my site
 Git
 Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 GitHub:
@@ -73,40 +78,56 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 W3C Markup Validator - Results
 W3C CSS Validator - Results
+W3C Javascript Validator - Results
 Grammarly
 Testing User Stories from User Experience (UX) Section
 First Time Visitor Goals
-As a First Time Visitor and prospective customer, I want to easily understand what tours this site offers for cyclists looking to explore Dublin
 
-1.1. Upon landing on the site customers can see a snapshot of what to expect during a tour on our large hero image. A simple scroll will offer them more info about DCC and the routes page will give more details about the routes we offer.
+1. As a First Time Visitor and past pupil/relative, I want to easily navigate the site, find & read about my daughter and her fellow graduates.
 
-
-I want to be able to easily navigate throughout the site to find the tour that suits me and my party best.
-
-2.1. The ever present nav-bar makes navigation easy for potential customers. 2.2. Footer links are also available for customers on each page.
-
-I want to be able to see pictures of the routes & bikes to get a taste for what a tour might be like.
-
-3.1. The routes page of the site contains a detailed description of each route, along with a picture of that route. 3.2. The routes page also contains a gallery of vivid images of the four routes.
+1.1. Upon opening the site, users are greeted with an easily legible navigation menu, short story about the school year and with a simple scroll they can see the first student profile. This site is self-intuitive and users will realize that they simply
+scroll further to see more students. 
 
 
-I want to see previous customer testimonials and reviews.
+2. I want to be able to expand and collapse each student card to read their quotes
 
-4.1. The testimonials page allows customers to hear about previous customers experiences on the tour. 4.2. There are also links to our social media account where potential customers can hear more about previous customers experiences.
+2.1. The read more button clearly stands out beneath each students profile and calls out to the user to 'click' and read more about the student in question.
+
+3. I want to be able to see pictures of my daughter and her fellow graduates
+
+3.1. Each of the student profiles are clearly viisble and easy to find across all devices. Visitors can also view the gallery in the 'highlights' section - which is also included in the navigation
+
+4. I want to see highlights from the school year
+
+4.1. As above, the highlights section can be accessed via the nav bar, or by simply scrolling to the bottom of the page. 
+
+5. I want to be able to view the websites that the students made in their final year in Mount Anville
+
+5.1 Graduate students created websites as one of their final year projects. Links to these projects are available in each students profile card, beneath their quotes. (links aren't yet available as students are still working on their projects. Once completed, they will be added and will open in a new tab target="_blank")
+
+6. If interested in registering for a virtual yearbook for my school, I want to easily contact the site owner for more details
+
+6.1 The Contact form is at the bottom of the site (also included in Nav) and requires minimal user input. 
 
 
-Returning Visitor Goals
-As a Returning Visitor, I want to be able to rebook easily and follow DCC on social media.
+Returning Visitors - I want to be understand the layout of the site easily explain its Features to friends/parents/grandparents
 
-1.1. Returning visitors will be able to rebook a tour in a matter of seconds, via the 'book now' call to action button the home page hero image. 1.2. Alternatively, returning visitors can navigate throughout the site at ease if further research of routes is required before rebooking. This can be done by engaging the nav-bar at the top of the page or using the link to routes at the bottom of the home page. 1.3. Following us on social media couldn't be easier, with links to all of our accounts available at the bottom of every page of the site.
+As a Returning Visitor, I will easily be able to find my way around the website as it is all contained on one page, and each section is clearly labeled. Buttons are included in bright colours where applicable. 
+This simplicity will help older relatives use the site to see their grand childs yearbook. 
+
+Frequent User Goals - As a Frequent User, I want to easily check on my friends quotes, pictures & site
+
+As above, the simplicity of the site allows frequent users to interact with the site with minimal effort.
+
 
 Further Testing
 The Website was tested on Google Chrome, Internet Explorer, Mozilla Firefox, Microsoft Edge and Safari browsers.
 The website was viewed on a variety of devices such as Desktop, Laptop, Samsung S7, Huawei & iPhone.
-Testing was undertaken to ensure that all links on the site are working correctly
-Friends were to test the site to validate all testing I had undertaken and to provide a second opinion on the site and its content.
+Testing was undertaken to ensure that each of the buttons works correctly as well as the map, gallery & contact form. 
+Friends & Colleagues tested the site to offer second opionions. All were happy - especially my Colleagues who look forward to seeing the site in action when our students graduate next year.  
+
 Known Bugs
-Hybrid bike displays sideways on Internet explorer, but no where else.
+
 
 
 Deployment

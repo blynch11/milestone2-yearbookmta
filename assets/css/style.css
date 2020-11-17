@@ -12,6 +12,7 @@ h2{
     padding-top: 30px;
     color: white;
 }
+
 /*----------------------Navigation--------------------*/
 
 .crest{
@@ -121,7 +122,7 @@ p a{
 
 
 #school-story{
-    display: visible;
+    
     color: teal;
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 25px;
@@ -179,6 +180,7 @@ div #map {min-height: 360px;}
 #highlights{
     text-align: center;
     margin-bottom: -40px;
+    color: teal;
 }
 
 .image-gallery{
@@ -188,6 +190,7 @@ div #map {min-height: 360px;}
 
 #slider-outer{
     margin: 50px auto;
+    text-align: center;
 }
 
 .slides-inner{
@@ -249,3 +252,9 @@ div #map {min-height: 360px;}
 #enquiry{
     margin: 10px auto;
 }
+
+
+/*--------Medie-Queries-----------*/
+
+
+
