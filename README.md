@@ -1,7 +1,7 @@
  
-<h1 align="center">virtual Yearbook!</h1>
+<h1 align="center">Virtual Yearbook!</h1>
  
-<h2 align="center"><img scr="/documentation/devices.png"></h2>
+<img src="/documentation/devices.png">
 
 
 
