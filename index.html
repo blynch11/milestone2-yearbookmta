@@ -14,7 +14,7 @@
       <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="assets/css/style.css" type="text/css">
       <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-       <script type="text/javascript">
+      <script type="text/javascript">
         (function() {
             emailjs.init("user_n8bKcGDySMKaeiclVUytV");
         })();
@@ -349,10 +349,10 @@ When you take risks, you learn there will be times you succeed and times you fai
             </div>
             <div class="col-sm-12 col-md-4 col-lg-6">
                <div class="center-form">
-                  <form onsubmit="return sendMail(this);" method="POST">
+                  <form onsubmit="return sendMail(this);">
                      <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
                      <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                     <textarea rows="5" name="projectsummary" class="form-control" id="enquiry" placeholder="Type your enquiry here" required></textarea>
+                     <textarea rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Type your enquiry here" required></textarea>
                      <button type="submit" class="btn btn-secondary center-block" id="request-btn">Request more info</button>
                   </form>
                </div>
@@ -452,7 +452,7 @@ When you take risks, you learn there will be times you succeed and times you fai
 
 
     
-
+    <script src="assets/js/sendemail.js"></script>
 
     </body> 
 
@@ -464,6 +464,6 @@ When you take risks, you learn there will be times you succeed and times you fai
       <script src="assets/js/students.js"></script>
       <script src="assets/js/gallery.js"></script>
      
-      <script src="assets/js/sendemail.js"></script>
+      
    
 </html>

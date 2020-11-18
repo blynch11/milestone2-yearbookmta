@@ -1,10 +1,15 @@
-$(document).ready(function(){sendMail(contactForm) {
-    emailjs.send("gmail", "brendan", {
-        "from_name": contactForm.name.value,
-        "from_email": contactForm.emailaddress.value,
-        "your_message": contactForm.message.value
+function sendMail(contactForm){
+    emailjs.send("service_i3na386" ,"contact_form" , {
+        "user_name": contactForm.name.value,
+        "user_email": contactForm.emailaddress.value,
+        "message": contactForm.enquiry.value
     })
-     .then(alert("Thank you, your message has been received and we will get back to you soon!"));
-
-  $("#contact-form").text();
-};
+    .then(
+        function(response){
+            console.log("thanks!", response);
+        },
+        function(error){
+            console.log("Failed", error);
+        });
+   return false; 
+}
