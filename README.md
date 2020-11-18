@@ -1,5 +1,7 @@
-View the live project here.
+View the live project here --> https://blynch11.github.io/milestone2-yearbook/
 
+
+<img scr="Documentation/devices.png">
 
 This website was created as an in house virtual yearbook option for my school. Given the year that we have all experienced, and the movement to a virtual world, I created this so that our students can have somewhere digital to look back
 on their years in our school. This is something practical for me and my school and I plan on using this site for my students. It is a responsive & easy to navigate site with images, stories and highlights from the school year. It also includes
@@ -31,9 +33,9 @@ parts of our school culture & a 'highlights' gallery that students can slide thr
 
 
 Wireframes
-Home Page Wireframe - [View] (https://github.com/blynch11/Dublincitycycles/blob/master/documentation/desktopwireframe.png)
+Home Page Wireframe - [View] (https://github.com/blynch11/milestone2/blob/363993c03e4dce68e0770857a95a5064fbf7d3de/Documentation/Wireframe%20Desktop%20mile%202%20%281%20of%203%29.png)
 
-Mobile Wireframe - [View] (https://github.com/blynch11/Dublincitycycles/blob/master/documentation/mobilewireframe.png)
+Mobile Wireframe - [View] (https://github.com/blynch11/milestone2/blob/363993c03e4dce68e0770857a95a5064fbf7d3de/Documentation/Mobile%20Wireframe%201.png)
 
 Features
 Responsive on all device sizes
@@ -128,7 +130,7 @@ Friends & Colleagues tested the site to offer second opionions. All were happy -
 
 Known Bugs
 
-
+EmailJS
 
 Deployment
 I deployed my site to Github pages by following the instructions below.
@@ -155,18 +157,17 @@ Type git clone, and then paste the URL you copied in Step 3.
 $ git clone https://blynch11.github.io/Dublincitycycles/index.html
 
 Press Enter. Your local clone will be created.
-Click Here to retrieve pictures for some of the buttons and more detailed explanations of the above process.
+
 
 Code
 Bootstrap4: Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 Content
 All content was written by the developer.
-Media
-Home page Images (Roadbike & Hybrid) were taken by me.
-
+Media provided by Employer, Code Institute & pixabay
 All other images were sourced from either pixabay or Google images (labeled for reuse)
 
 Acknowledgements
-My Mentor for his support
+
 
 w3schools for being such a great resource!
+Youtube for refreshing my memory
