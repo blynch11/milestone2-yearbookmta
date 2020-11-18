@@ -70,10 +70,13 @@ h2{
     font-family: 'Cinzel', serif;
     letter-spacing: 1.5px;
     font-size: 20px; 
+    color: teal;
 }
 
 .student-info{
     padding: 4px;
+    text-align: center;
+
 }
 
 .student-profile-section{
@@ -84,6 +87,8 @@ h2{
 p a{
     font-style: normal;
 }
+
+
 
 
 /*-------------Hidden Quotes--------------*/
@@ -148,7 +153,6 @@ p a{
 
 .student-countries{
     width: 80%;
-    background-color: lightyellow;
     text-align: center;
     margin: 0px auto;
 
@@ -170,6 +174,13 @@ div #map {min-height: 360px;}
     margin: 50px auto;
     text-align: center;
     font-family: 'Cinzel', serif;
+    color: teal;
+}
+
+.student-locations-text{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;;
+    color: teal
 }
 
 
@@ -224,6 +235,15 @@ div #map {min-height: 360px;}
 
 /*-------------------Contact-------------------------*/
 
+.footer-div{
+    text-align: center;
+}
+
+.footer-crest{
+    margin: 15px auto;
+    border-radius: 50%;
+    
+}
 
 #contact{
     background-color: teal;
@@ -236,6 +256,7 @@ div #map {min-height: 360px;}
 
 #request-btn{
     text-align: center;
+    width: 45%;
     margin-bottom: 50px;
 
 }

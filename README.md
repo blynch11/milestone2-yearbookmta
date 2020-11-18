@@ -18,7 +18,7 @@ First Time Visitor Goals
 As a Returning Visitor, I want to be understand the layout of the site easily explain its Features to friends/parents/grandparents
 
 Frequent User Goals
-As a Frequent User, I want to easily check on my friends quotes, pictures & site
+As a Frequent User, I want to easily check on my friends quotes, pictures & other info on the site
 
 Design
 Colour Scheme
@@ -115,7 +115,7 @@ Returning Visitors - I want to be understand the layout of the site easily expla
 As a Returning Visitor, I will easily be able to find my way around the website as it is all contained on one page, and each section is clearly labeled. Buttons are included in bright colours where applicable. 
 This simplicity will help older relatives use the site to see their grand childs yearbook. 
 
-Frequent User Goals - As a Frequent User, I want to easily check on my friends quotes, pictures & site
+Frequent User Goals - As a Frequent User, I want to easily check on my friends quotes, pictures & other info on the site.
 
 As above, the simplicity of the site allows frequent users to interact with the site with minimal effort.
 
@@ -138,7 +138,6 @@ The project was deployed to GitHub Pages using the following steps...
 
 Log in to GitHub and locate the GitHub Repository
 At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
-Alternatively Click Here for a GIF demonstrating the process starting from Step 2.
 Scroll down the Settings page until you locate the "GitHub Pages" Section.
 Under "Source", click the dropdown called "None" and select "Master Branch".
 The page will automatically refresh.
