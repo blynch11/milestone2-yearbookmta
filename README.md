@@ -1,7 +1,7 @@
  
 <h1 align="center">virtual Yearbook!</h1>
  
-<h2 align="center"><img scr="Documentation/devices.png"></h2>
+<h2 align="center"><img scr="/Documentation/devices.png"></h2>
 
 
 
@@ -130,14 +130,14 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 1.1. Upon opening the site, users are greeted with an easily legible navigation menu, short story about the school year and with a simple scroll they can see the first student profile. This site is self-intuitive and users will realize that they simply
 scroll further to see more students. 
 
-<img src="documentation/example1.png">
+<img src="/documentation/example1.png">
 
 
 2. I want to be able to expand and collapse each student card to read their quotes
 
 2.1. The read more button clearly stands out beneath each students profile and calls out to the user to 'click' and read more about the student in question.
 
-<img src="documentation/example2.png">
+<img src="/documentation/example2.png">
 
 3. I want to be able to see pictures of my daughter and her fellow graduates
 
@@ -155,7 +155,7 @@ scroll further to see more students.
 
 6.1 The Contact form is at the bottom of the site (also included in Nav) and requires minimal user input. 
 
-<img src="documentation/example3.png">
+<img src="/documentation/example3.png">
 
 
 -   #### Returning Visitor Goals
