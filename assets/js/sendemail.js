@@ -1,15 +1,15 @@
-function sendMail(contactForm){
-    emailjs.send("service_i3na386" ,"contact_form" , {
-        "user_name": contactForm.name.value,
-        "user_email": contactForm.emailaddress.value,
-        "message": contactForm.enquiry.value
+function sendMail(contactForm) {
+    emailjs.send("service_7x14q8s","template_65f2opj", {
+        "from_name": contactForm.name.value,
+        "from_email": contactForm.email.value,
+        "message": contactForm.message.value
     })
     .then(
         function(response){
-            console.log("thanks!", response);
+            console.log("Success", response);
         },
         function(error){
             console.log("Failed", error);
         });
-   return false; 
+        return false;
 }

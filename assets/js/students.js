@@ -15,12 +15,12 @@
 $("#read-more").click(function(){
     if ($(this).text() === 'Read More'){
         $(this).text('Read less');
-        $("#quote").css("display", "block").toggle(slow);
+        $("#quote").css("display", "block");
     }
     else{
 ($("#read-more").text() === 'Read Less' )
         $(this).text('Read More');
-        $("#quote").css("display", "none").toggle(slow);
+        $("#quote").css("display", "none");
     }
 });
 
