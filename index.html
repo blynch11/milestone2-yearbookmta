@@ -4,6 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Mount Anville Class of 2020</title>
+      <!-- bootstrap, my css and google fonts -->
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap" rel="stylesheet">
@@ -13,17 +14,20 @@
       <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap" rel="stylesheet">
       <link rel="stylesheet" href="assets/css/style.css" type="text/css">
-      <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
+      <!-- bootstrap, my css and google fonts -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
       <script src="assets/js/students.js"></script>
       <script src="assets/js/gallery.js"></script>
-      <script>
-        (function() {
-            emailjs.init("user_n8bKcGDySMKaeiclVUytV");
-        })();
-    </script>
+      <script src="assets/js/sendemail.js"></script> 
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_yAgMWW84cymBtnLY8VxNB");
+   })();
+</script>
       
 
       
@@ -77,7 +81,7 @@ In response to those who say to stop dreaming and face reality, I say keep dream
                     <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more" class="btn btn-danger btn-small btn-block read-more" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more', 'quote')" id="read-more" class="btn btn-danger btn-small btn-block read-more" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -91,7 +95,7 @@ If you hear a voice within you say “you cannot paint,” then by all means pai
                     <br>
                     <a class="student-link" href="#">My Website</a>                   
                   </i>
-                  <a id="read-more1" class="btn btn-danger btn-small btn-block read-more1" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more1', 'quote1')"  id="read-more1" class="btn btn-danger btn-small btn-block read-more1" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -105,7 +109,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                     <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more2" class="btn btn-danger btn-small btn-block read-more2" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more2', 'quote2')" id="read-more2" class="btn btn-danger btn-small btn-block read-more2" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -119,7 +123,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                     <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more3" class="btn btn-danger btn-small btn-block read-more3" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more3', 'quote3')" id="read-more3" class="btn btn-danger btn-small btn-block read-more3" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -133,7 +137,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                     <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more4" class="btn btn-danger btn-small btn-block read-more4" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more4', 'quote4')" id="read-more4" class="btn btn-danger btn-small btn-block read-more4" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -147,7 +151,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                     <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more5" class="btn btn-danger btn-small btn-block read-more5" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more5', 'quote5')" id="read-more5" class="btn btn-danger btn-small btn-block read-more5" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -161,7 +165,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                     <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more6" class="btn btn-danger btn-small btn-block read-more6" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more6', 'quote6')" id="read-more6" class="btn btn-danger btn-small btn-block read-more6" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -176,7 +180,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                    <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more7" class="btn btn-danger btn-small btn-block read-more7" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more7', 'quote7')" id="read-more7" class="btn btn-danger btn-small btn-block read-more7" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -191,7 +195,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                      <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more8" class="btn btn-danger btn-small btn-block read-more8" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more8', 'quote8')" id="read-more8" class="btn btn-danger btn-small btn-block read-more8" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -206,7 +210,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                      <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more9" class="btn btn-danger btn-small btn-block read-more9" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more9', 'quote9')" id="read-more9" class="btn btn-danger btn-small btn-block read-more9" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -221,7 +225,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                       <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more10" class="btn btn-danger btn-small btn-block read-more10" data-colour="red">Read More</a>
+                  <a onclick="readChange('read-more10', 'quote10')" id="read-more10" class="btn btn-danger btn-small btn-block read-more10" data-colour="red">Read More</a>
                </div>
             </div>
          </div>
@@ -236,7 +240,6 @@ When you take risks, you learn there will be times you succeed and times you fai
                     <br>
                     <a class="student-link" href="#">My Website</a>
                   </i>
-                  <a id="read-more11" class="btn btn-danger btn-small btn-block read-more11" data-colour="red">Read More</a>
                </div>
             </div>
          
@@ -314,9 +317,7 @@ When you take risks, you learn there will be times you succeed and times you fai
                 
                         <img src="assets/images/sport.jpg" alt="sport"  class="slider-img">
                
-                
 
-            
               
             </div>
             
@@ -336,8 +337,8 @@ When you take risks, you learn there will be times you succeed and times you fai
                <div class="center-form">
                   <form onsubmit="return sendMail(this);">
                      <input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
-                     <input type="text" name="emailaddress" class="form-control" id="emailaddress" placeholder="Email" required/>
-                     <textarea rows="5" name="enquiry" class="form-control" id="enquiry" placeholder="Type your enquiry here" required></textarea>
+                     <input type="text" name="email" class="form-control" id="emailaddress" placeholder="Email" required/>
+                     <textarea rows="5" name="message" class="form-control" id="enquiry" placeholder="Type your enquiry here" required></textarea>
                      <button type="submit" class="btn btn-secondary center-block" id="request-btn">Request more info</button>
                   </form>
                </div>
@@ -408,34 +409,17 @@ When you take risks, you learn there will be times you succeed and times you fai
              });
          }
 
-         function toggle() {
-            var moreText = document.getElementById("quote");
-            var btnText = document.getElementById("btn");
-
-            if (dots.style.display === "none") {
-                dots.style.display = "inline";
-                btnText.innerHTML = "Read More"; 
-                moreText.style.display = "none";
-            } else {
-                dots.style.display = "none";
-                btnText.innerHTML = "Read Less"; 
-                moreText.style.display = "inline";
-            }
-         }
+         
       </script>
 
 
+<script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwW3qsyMHVK5J5d8ZJ4NWGMBejloYbDKo&callback=initMap"></script>
+   
 
-
-
-
-    
-    <script src="assets/js/sendemail.js"></script>
-
-    </body> 
+</body> 
       
-      <script src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js"></script>
-      <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDwW3qsyMHVK5J5d8ZJ4NWGMBejloYbDKo&callback=initMap"></script>
+     
       
      
       
