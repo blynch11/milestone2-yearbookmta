@@ -4,7 +4,7 @@
         
      
     });
-console.log(12345);
+
 // button click events
 function readChange(id, quote) {
     let textVal = document.getElementById(id).innerText;
@@ -21,11 +21,7 @@ function readChange(id, quote) {
 
 
 
-// button click events  
 
-
-    
-// button toggle to read-less
 
 
 
