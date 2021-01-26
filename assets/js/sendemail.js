@@ -8,8 +8,6 @@ function sendMail(contactForm) {
         function(response){
             alert('Great! We\'ll be in touch soon');
             window.location.replace("/");
-            console.log(response)
-
         },
         function(error){
             alert('Oops! Somethings wrong!');
