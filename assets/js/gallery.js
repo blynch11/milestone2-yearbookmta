@@ -1,4 +1,4 @@
-//this does x and y
+//this fucntion allows users to slide through images of the highlights of our school year
 $(document).ready(function(){
         $(".next").on('click', function() {
             let visibleImg = $('.active');

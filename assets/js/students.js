@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 // button click events
 function readChange(id, quote) {
-    //This function ...
+    //This function enables the on click events to show/hide student info
     let textVal = document.getElementById(id).innerText;
     if (textVal === 'Read More'){
         document.getElementById(id).innerText = 'Read less';

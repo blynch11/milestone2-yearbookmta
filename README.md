@@ -1,5 +1,5 @@
  
-<h1 align="center">Virtual Yearbook!</h1>
+<h1 text-align="center">Virtual Yearbook!</h1>
  
 <img src="/documentation/devices.png" alt="documentation - devices">
 
@@ -178,6 +178,13 @@ As above, the simplicity of the site allows frequent users to interact with the 
 - Testing was undertaken to ensure that each of the buttons works correctly as well as the map, gallery & contact form. 
 - Friends & Colleagues tested the site to offer second opionions. All were happy - especially my Colleagues who look forward to seeing the site in action when our students graduate next year.  
 
+### Bugs
+
+- During my testing of the site I encountered some problems which needed fixing before the submission of my project.
+
+1. Contact form - My contact form was showing errors in the console and failing to send the emails to my given address. It turned out the error had been a incorrect link to the email.js CDN. 
+   Once this was fixed, the contact form worked correctly without any errors.
+2. Another bug was the 'request more info' btn's background color not covering the entire button on a smaller device. This was easily fixed in my stylesheet.
 
 
 ## Deployment
@@ -229,4 +236,5 @@ I created a local clone to work locally. I followed the Code Institute instructi
 
 
 - w3schools for being such a great resource!
-- Youtube for refreshing my memory and helping me add my gallery. 
+- Youtube for refreshing my memory and helping me add my gallery.
+- My mentor for all of his help and guidance.  
